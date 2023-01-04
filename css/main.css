@@ -1,0 +1,80 @@
+.brand-logo img{
+    text-decoration: none;
+    position: absolute;
+    width: 200px;
+    top: 20px;
+    left: 20px;
+}
+.menu ul{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 20px 0;
+}
+.menu li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+.menu ul li a {
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+}  
+.car{
+    text-decoration: none;
+    text-align:right;
+    position: absolute;
+    height: 100%;
+    width: 250px;
+    top: 15px;
+    left: 1500px;
+}
+.burger img{
+    width: 80px;
+    position: absolute;
+    right: 100px;
+    margin: 15px;
+    cursor: pointer;
+}
+.stuff{
+    width: 300px;
+  margin-top: 15px;
+}
+.addcar{
+    width:300px;
+    margin-bottom: 15px;
+    /* border-radius: 10px; */
+    top: 10px;
+    padding: 15px 20px 15px 20px;
+    margin: 20px 0px;
+    background-color: rgb(143, 161, 190);
+    border-color:aliceblue;
+}
+.content1{
+    /* margin: -510px 0px 130px 750px; */
+    /* width: 300px;
+    display: inline-block;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    padding: 50px 50px 1px 10px; */
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.detail{
+    /* padding: 50px 50px 1px 10px; */
+    width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+#number{
+    margin: 0px 0px 0px 20px;
+    width: 295px;
+    margin: 0px;
+  }
+.stufftext{
+    font-size: larger;
+}
